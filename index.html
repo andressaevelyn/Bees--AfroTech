@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Andressa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/bc88ce5089.js" crossorigin="anonymous"></script>
+<body>
+    <div class="center">
+        <header>
+            <nav id="navigation">
+                <a href="https://www.linkedin.com/in/andressa-silva-4b55a4186/"><h1>Dessa.Dev</h1></a>
+                <ul class="menu">
+                    <li><a href="#moreinfo">Sobre Mim</a></li>
+                    <li><a href="#stacks">Stacks</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="center">
+        <div class="sections">
+            <img id="picture" src="./assets/Andressaimage.jpg" alt="Imagem da aluna Andressa Evelyn" width="400" height="400">
+            <div class="description">
+                <h2>Andressa Evelyn</h2>
+                <br>
+                <br>
+                <hr>
+                <p>Olá!! </br> Fico feliz com sua visita ao meu portfólio!</br> Aqui você terá mais informações de quem eu sou e de quem busco me tornar profissionalmente, espero que goste e caso tenha alguma dúvida que não tenha sido esclarecida, fique a vontade para me perguntar por meio das opções de contatos disponíveis logo abaixo!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="center">
+            <section id="moreinfo">
+                <div class="textMe">
+                    <h2>Sobre Mim</h2>
+                    <p>Natural de Petrolândia - Pernambuco, vivi grande parte da minha vida no interior de São Paulo. Iniciei no mercado de trabalho com cerca de 15 anos, por meio de programas focado em Jovem Aprendiz, desde então atuei em diferentes áreas a fim de me desenvolver e permanecer trabalhando, em paralelo a isso, permaneci estudando pois sempre valorizei muito a educação. Em 2022 eu consegui iniciar no meu atual curso o de Análise e Desenvolvimento de Sistemas na <a href="https://www.fatec.edu.br/">Fatec Americana</a> na curiosidade de aprender algo novo e me desenvolver na área, desde então busco extrair e consolidar conhecimentos, sempre atenta as novas oportunidades de aprendizado. </p>
+                </div>
+
+                <div class="imgCoding">
+                    <img src="./assets/menina-negra-estudando-com-computador-aprendendo-on-line-de-volta-ao-conceito-de-escola_254685-888.avif" alt="Menina mexendo no notebook" width="400">
+                </div>
+            </section>
+    </div>
+
+
+    <div class="center">
+            <section id="stacks">
+                <h2>Stacks</h2>
+                <div class="imgStacks">
+                    <img src="./assets/Design sem nome (27) 1 (1).jpg" alt="imagem da tecnologia HTML" width="100" >
+                    <img src="./assets/Design sem nome (27) 1.jpg" alt="imagem da tecnologia CSS" width="100">
+                    <img src="./assets/Design sem nome (27) 2.jpg" alt="imagem da tecnologia JavaScript" width="100">
+                    <img src="./assets/Design sem nome (27) 3.jpg" alt="imagem da tecnologia React" width="100">
+                </div>
+            </section>
+    </div>
+
+
+    <div class="center">
+            <section id="contato">
+                <h2>Contato</h2>
+                    <div class="row">
+                        <div>
+                            <img src="./assets/BlondGrouchyBarnswallow.webp" alt="bee" width="200">
+                        </div>
+                        <div class="formsContact">
+                
+                        <i class="fa-solid fa-envelope"> <a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJQwLglrbnKQswvJJqqMGsNmkrVnggZpcMHDhNnGZMMmMVfHXvBbXSBWCJWHPDrCpwdv"> E-mail</a></i>
+                        <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/andressa-silva-4b55a4186/"> Linkedin</a></i>
+                        <i class="fa-brands fa-github"><a href="https://github.com/andressaevelyn"> GitHub</a></i>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome"/>
+                            <label for="email">E-mail:</label>
+                            <input type="email" onblur="validarEmail()" onfocus="redefinirMsg()" id="email" />
+                            <span  id="error-email"></span>
+                            <label for="mensagem">Mensagem: </label>
+                            <textarea name="mensagem" id="mensagem"></textarea required>
+                            <!-- <input type="text" id="mensagem"> -->
+                            <!-- <button id="enviar">Enviar</button> -->
+                            <input type="submit" id="submit"/>
+                        </div>
+                    </div>
+            </section>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
